@@ -1,16 +1,13 @@
-# React + Vite
+# Setup Instructions
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Clone the repo to a file folder.
+2. cd into the folder
+3. Run the command: npm install
+4. Run the command: npm run dev
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Reflection
 
-## React Compiler
+- I do like the component system and I think it would be fun to use, however it is so significantly different than the technology I have been using for web apps that it is harder to get used to.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- As for the implementation, the components are well implemented but I feel like there is a much more simple way to go about this and as a result my project felt overly complicated for the end product. It is definitely expandable, but for a project this small it feels rather unnessecary.
